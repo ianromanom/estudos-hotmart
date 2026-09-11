@@ -1,5 +1,4 @@
-"""Cálculo simples de LTV a partir de pedidos."""
-
+"""Cálculo de LTV a partir da base de pedidos do D2C."""
 
 def calcular_ltv(ticket_medio, frequencia_compras, margem=1.0):
     """LTV = ticket médio x frequência de compras x margem."""
